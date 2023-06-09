@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMS.WebApp", "IMS.WebApp\IMS.WebApp.csproj", "{D7ED5012-2AA7-4095-9187-4B462BBAB597}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMS.WebApp", "IMS.WebApp\IMS.WebApp.csproj", "{D7ED5012-2AA7-4095-9187-4B462BBAB597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMS.UseCases", "IMS.UseCases\IMS.UseCases.csproj", "{CE50F803-EE24-4CD5-A71D-DD79CE576EA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMS.CoreBuisness", "IMS.CoreBuisness\IMS.CoreBuisness.csproj", "{EDCA6854-58C1-4016-A1E3-71F2F6EE2C39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D7ED5012-2AA7-4095-9187-4B462BBAB597}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7ED5012-2AA7-4095-9187-4B462BBAB597}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7ED5012-2AA7-4095-9187-4B462BBAB597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE50F803-EE24-4CD5-A71D-DD79CE576EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE50F803-EE24-4CD5-A71D-DD79CE576EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE50F803-EE24-4CD5-A71D-DD79CE576EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE50F803-EE24-4CD5-A71D-DD79CE576EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCA6854-58C1-4016-A1E3-71F2F6EE2C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCA6854-58C1-4016-A1E3-71F2F6EE2C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCA6854-58C1-4016-A1E3-71F2F6EE2C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCA6854-58C1-4016-A1E3-71F2F6EE2C39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
